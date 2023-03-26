@@ -13,7 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <router-link class="nav-link" to="/cv">CV</router-link>
+          <router-link class="nav-link" to="/">CV</router-link>
         </li>
         <li class="nav-item">
           <router-link class="nav-link" to="/portfolio">Portfolio</router-link>
@@ -33,7 +33,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <style scoped>
 
 nav{
-  border-radius: 15px;
+  border-radius: 10px;
   
   font-size:25px;
 }
