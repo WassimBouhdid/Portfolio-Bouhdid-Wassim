@@ -67,7 +67,7 @@
 body {
   min-height: 100vh;
   color: var(--color-text);
-  background: var(--color-background);
+  background: white;
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
@@ -79,8 +79,6 @@ body {
 }
 
 #curriculumCardContainer {
-  background-color:var(--vt-c-white2);
-  border: #157F1F 1px solid;
   border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -180,12 +178,11 @@ span.lvl {
   margin-bottom: auto;
   width: 250px;
   height: 15px;
-  background-color: lightgray;
+  background-color: darkgray;
   border-radius: 15px;
 }
 
 li {
-  list-style: none;
 }
 
 #formation{
@@ -264,4 +261,38 @@ li {
 
 .contactInfo{
   margin: 10px;
+}
+
+#front{
+  background-image: url(../assets/beautiful-milky-way-night-sky.jpg);
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+#titleCv{
+ animation-name: pop;
+  animation-duration: 2s;
+  color: black;
+  margin: 5px;
+  font-weight: bolder;
+  font-size:45px;
+  text-align: center;
+}
+
+@keyframes pop {
+  from {
+      opacity: 0;
+      position: relative;
+  }
+
+  to {
+      opacity: 1;
+      position: relative;
+  }
+}
+
+#app{
+padding: 0px !important;
 }

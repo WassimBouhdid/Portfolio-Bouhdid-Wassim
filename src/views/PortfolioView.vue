@@ -1,7 +1,7 @@
 <template lang="">
-    <div>
-        PortfolioView
-    </div>
+    <div id="front">
+    <h1>Portfolio</h1>
+  </div>
 
     <div class="container">
       <button @click="say('hello')">Say hello</button>

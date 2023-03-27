@@ -1,5 +1,9 @@
 <template lang="">
 
+<div id="front">
+    <h1 id="titleCv">Curriculum Vitae</h1>
+  </div>
+
   <div style="margin-top:35px" class="container" id="curriculumCardContainer">
     <div id="exp">
       <h1>Bouhdid Wassim</h1>
@@ -15,29 +19,39 @@
         </div>
       </div>
       <div>
-        <h3>Exprériences professionel</h3>
+        <h3>Exprériences professionelles</h3>
         <div id="experience">
           <div id="dateExp1">Pâques et Eté 2019 et 2020 (Bruxelles-Belgique)</div>
           <div id="descriptionExp1">Money International
             Guichetier
-            Tâches réalisées :
-            • Création et envoie de mandat à l’étranger
-            • Gestion de la caisse</div>
+            Tâches réalisées :<br>
+            <ul>
+              <li>Création et envoie de mandat à l’étranger</li>
+              <li>Gestion de la caisse</li>
+            </ul>
+           </div>
           <div id="dateExp2">Pâques et Eté 2019 et 2020 (Bruxelles-Belgique)</div>
           <div id="descriptionExp2">ApConsulting | Campus Solvay
             Technicien
-            Tâches réalisées :
-            • Montage d’écran
-            • Installation de dockings stations
-            • Cablage
-            • Testing</div>
+            Tâches réalisées :<br>
+            <ul>
+              <li>Montage d’écran</li>
+              <li>Installation de dockings stations</li>
+              <li>Cablage</li>
+              <li>Testing</li>
+            </ul>
+            
+            </div>
           <div id="dateExp3">Année 2019 (Bruxelles-Belgique)</div>
           <div id="descriptionExp3">ApConsulting | Mastercard Waterloo
             Technicien
-            Tâches réalisées :
-            • Installation des bureaux
-            • Cablage
-            • Testing des installations</div>
+            Tâches réalisées :<br>
+            <ul>
+              <li>Installation des bureaux</li>
+              <li>Cablage</li>
+              <li>Testing des installations</li>
+            </ul>
+            </div>
 
         </div>
       </div>
@@ -77,6 +91,20 @@
       </div>
       <hr>
       <div>
+        <h5>Les technologies utilisées/apprises</h5>
+        <ul>
+          <li> NodeJS </li>
+          <li> JS/HTML/CSS </li>
+          <li> Angular </li>
+          <li> VueJS </li>
+          <li> Python </li>
+          <li> Kotlin </li>
+          <li> PHP </li>
+          <li> Symphony </li>
+        </ul>
+      </div>
+      <hr>
+      <div>
         <h5>Compétences</h5>
         <ul>
           <li> Polyvalence </li>
@@ -86,6 +114,7 @@
         </ul>
       </div>
       <hr>
+      
       <div>
         <h5>Intérêts</h5>
         <ul>
