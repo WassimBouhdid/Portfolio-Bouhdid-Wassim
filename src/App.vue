@@ -17,10 +17,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Portfolio</router-link>
+            <router-link class="nav-link" to="/">CV</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/cv">CV</router-link>
+            <router-link class="nav-link" to="/portfolio">Portfolio</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" aria-current="page" to="/github">Github</router-link>

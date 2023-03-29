@@ -1,27 +1,59 @@
 <template lang="">
 
-<div id="front">
-    <h1 id="titleCv">Curriculum Vitae</h1>
+  <div id="front">
+    <div style="position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90rem;
+    width: 92%;">
+      <h1 id="titleCv">Bouhdid Wassim</h1>
+      <div>
+        <h2>Devollopeur full-stack</h2>
+      </div>
+      <div style="left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 420px;display:flex;border:2px solid white;position:absolute;">
+        <a href="/">
+          <div style="border-right: 2px solid #eee;padding:1.2em"><img src="../assets/facebook.png"></div>
+        </a>
+        <a href="/">
+          <div style="border-right: 2px solid #eee;padding:1.2em"><img src="../assets/linkedin.png"></div>
+        </a>
+        <a href="/">
+          <div style="border-right: 2px solid #eee;padding:1.2em"><img src="../assets/instagram.png"></div>
+        </a>
+        <a href="/">
+          <div style="border-right: 2px solid #eee;padding:1.2em"><img src="../assets/twitter.png"></div>
+        </a>
+        <a href="/portfolio">
+          <div id="projectLink" style="border-right: 2px solid #eee;padding:1.2em;font-size:17px;color:black;">Mes projects</div>
+        </a>
+      </div>
+    </div>
   </div>
 
   <div style="margin-top:35px" class="container" id="curriculumCardContainer">
     <div id="exp">
       <h1>Bouhdid Wassim</h1>
-      <div >
+      <div>
         <h3>Études/Formations</h3>
         <div id="formation">
           <div id="dateFromation1">2018 Bruxelles - Belgique</div>
-          <div id="descriptionFormation1">Diplôme CESS Ecole Notre Dames des Champs</div>
+          <div id="descriptionFormation1">Diplôme CESS à l'Ecole Notre Dames des Champs</div>
           <div id="dateFromation2">2019 Belgique</div>
-          <div id="descriptionFormation2">Formation d’initiation au développement web (CSS, JavaScript, HTML) Ephec (Technofutur)</div>
-          <div id="dateFromation3">2019 - maintenant Louvain la-neuve, Belgique</div>
+          <div id="descriptionFormation2">Formation d’initiation au développement web (CSS, JavaScript, HTML) Ephec
+            (Technofutur)</div>
+          <div id="dateFromation3">2019 - 2 Février 2023</div>
           <div id="descriptionFormation3">Bachelier en technologie de l’informatique Ephec , Louvain la-neuve</div>
         </div>
       </div>
       <div>
         <h3>Exprériences professionelles</h3>
         <div id="experience">
-          <div id="dateExp1">Pâques et Eté 2019 et 2020 (Bruxelles-Belgique)</div>
+          <div id="dateExp1">Pâques/Eté 2019 et 2020 Bruxelles-Belgique</div>
           <div id="descriptionExp1">Money International
             Guichetier
             Tâches réalisées :<br>
@@ -29,8 +61,8 @@
               <li>Création et envoie de mandat à l’étranger</li>
               <li>Gestion de la caisse</li>
             </ul>
-           </div>
-          <div id="dateExp2">Pâques et Eté 2019 et 2020 (Bruxelles-Belgique)</div>
+          </div>
+          <div id="dateExp2">Pâques/Eté 2019 et 2020 Bruxelles-Belgique</div>
           <div id="descriptionExp2">ApConsulting | Campus Solvay
             Technicien
             Tâches réalisées :<br>
@@ -40,9 +72,9 @@
               <li>Cablage</li>
               <li>Testing</li>
             </ul>
-            
-            </div>
-          <div id="dateExp3">Année 2019 (Bruxelles-Belgique)</div>
+
+          </div>
+          <div id="dateExp3">2019 Bruxelles-Belgique</div>
           <div id="descriptionExp3">ApConsulting | Mastercard Waterloo
             Technicien
             Tâches réalisées :<br>
@@ -51,7 +83,18 @@
               <li>Cablage</li>
               <li>Testing des installations</li>
             </ul>
-            </div>
+          </div>
+
+          <div id="dateExp4">2022 Wavre Février -> Mai</div>
+          <div id="descriptionExp4">Stage de ApConsulting
+            Dévellopeur web
+            Tâches réalisées :<br>
+            <ul>
+              <li>Création de sites wordpress</li>
+              <li>Création de sites avec NodeJS</li>
+              <li>Web3</li>
+            </ul>
+          </div>
 
         </div>
       </div>
@@ -72,14 +115,15 @@
           <li class="listLangue"><span class="langueNom">Anglais</span>
             <div class="lvlMax">
               <div id="anglais"></div>
-            </div> <span class="lvl">Niveau : B2</span>
+            </div> <span class="lvl">Niveau : B1</span>
           </li>
         </ul>
       </div>
     </div>
     <div id="data">
       <div id="imageWrapper">
-        <img style="margin-top:15px;margin-bottom:15px" class="img-fluid" id="imgProfile" src="../assets/imgProfile.jpg">
+        <img style="margin-top:15px;margin-bottom:15px" class="img-fluid" id="imgProfile"
+          src="../assets/imgProfile.jpg">
       </div>
       <div>
         <h5>Contact</h5>
@@ -114,7 +158,7 @@
         </ul>
       </div>
       <hr>
-      
+
       <div>
         <h5>Intérêts</h5>
         <ul>

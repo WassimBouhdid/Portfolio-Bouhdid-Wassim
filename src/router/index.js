@@ -11,13 +11,13 @@ const router = createRouter({
    
     {
       path: '/',
-      name: 'portfolio',
-      component:  PortfolioView
+      name: 'cv',
+      component:  CurriculumView
     },
     {
-      path: '/cv',
-      name: 'cv',
-      component: CurriculumView
+      path: '/portfolio',
+      name: 'portfolio',
+      component: PortfolioView
     },
     {
       path: '/github',

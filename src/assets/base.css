@@ -90,18 +90,17 @@ body {
   color: black;
   grid-column: 1 / 3;
   grid-row: 1 / 5;
-  border-right-color: var(--vt-c-green);
-  border-top-color: var(--vt-c-white2);
-  border-bottom-color: var(--vt-c-white2);
-  border-left-color: var(--vt-c-white2);
-  border-style: solid
 }
 
 #data {
   color: black;
   grid-column: 3;
   grid-row: 1 / 5;
+  background-image: url(../assets/backgroungImageBasicGreen.jpg);
+  color: white;
+  padding: 20px;
 }
+
 
 #imgProfile {
   display: block;
@@ -140,7 +139,7 @@ h5{
 #francais {
   margin-top: auto;
   margin-bottom: auto;
-  width: 200px;
+  width: 215px;
   height: 15px;
   background-color: #157F1F;
   border-radius: 15px;
@@ -149,7 +148,7 @@ h5{
 #ndls {
   margin-top: auto;
   margin-bottom: auto;
-  width: 200px;
+  width: 160px;
   height: 15px;
   background-color: #157F1F;
   border-radius: 15px;
@@ -158,7 +157,7 @@ h5{
 #anglais {
   margin-top: auto;
   margin-bottom: auto;
-  width: 200px;
+  width: 160px;
   height: 15px;
   background-color: #157F1F;
   border-radius: 15px;
@@ -244,6 +243,11 @@ li {
   grid-row: 3 ;
 }
 
+#dateExp4{
+  grid-column: 1;
+  grid-row: 4 ;
+}
+
 #descriptionExp1{
   grid-column: 2/4;
   grid-row: 1 ;
@@ -259,12 +263,17 @@ li {
   grid-row: 3 ;
 }
 
+#descriptionExp4{
+  grid-column: 2/4;
+  grid-row: 4 ;
+}
+
 .contactInfo{
   margin: 10px;
 }
 
 #front{
-  background-image: url(../assets/beautiful-milky-way-night-sky.jpg);
+  background-image: url(../assets/backgroungImageBasicGreen.jpg);
   height: 650px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -296,3 +305,9 @@ li {
 #app{
 padding: 0px !important;
 }
+
+a div:hover img{
+  transform: scale(1.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
