@@ -79,6 +79,42 @@
         <Button>Voir le project</Button>
       </div>
     </div>
+
+    <div style="margin:55px;" class="personnalProject">
+      <div style="width:450px;margin:25px;">
+        <img src="#">
+      </div>
+      <div style="width:450px;margin:25px;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, cupiditate animi, nostrum ratione neque
+          voluptatum distinctio voluptatem est odio accusantium, ex repellat explicabo expedita ipsum quidem rem aliquam
+          doloribus fugit.</p>
+        <div>
+          <h4>les technologies utilisées</h4>
+          <div style="display:flex;margin:25px;">
+            <img src="#"><img src="#"><img src="#"><img src="#"><img src="#"><img src="#">
+          </div>
+        </div>
+        <Button>Voir le project</Button>
+      </div>
+    </div>
+
+    <div style="margin:55px;" class="personnalProject">
+      <div style="width:450px;margin:25px;">
+        <img src="#">
+      </div>
+      <div style="width:450px;margin:25px;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, cupiditate animi, nostrum ratione neque
+          voluptatum distinctio voluptatem est odio accusantium, ex repellat explicabo expedita ipsum quidem rem aliquam
+          doloribus fugit.</p>
+        <div>
+          <h4>les technologies utilisées</h4>
+          <div style="display:flex;margin:25px;">
+            <img src="#"><img src="#"><img src="#"><img src="#"><img src="#"><img src="#">
+          </div>
+        </div>
+        <Button>Voir le project</Button>
+      </div>
+    </div>
   </div>
   <div>
     <h2>Contact</h2>
