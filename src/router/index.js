@@ -20,11 +20,6 @@ const router = createRouter({
       component: PortfolioView
     },
     {
-      path: '/github',
-      name: 'github',
-      component: GithubView
-    },
-    {
       path: '/about',
       name: 'about',
       // route level code-splitting

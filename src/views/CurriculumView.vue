@@ -1,35 +1,30 @@
 <template lang="">
 
   <div id="front">
-    <div style="position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 90rem;
-    width: 92%;">
+    <div style="position: absolute;top: 40%;left: 50%;transform: translate(-50%, -50%);max-width: 90rem;width: 92%;">
       <h1 id="titleCv">Bouhdid Wassim</h1>
       <div>
-        <h2>Devollopeur full-stack</h2>
+        <h2>Developpeur</h2>
       </div>
-      <div style="left: 0; 
-  right: 0; 
-  margin-left: auto; 
-  margin-right: auto; 
-  width: 420px;display:flex;border:2px solid white;position:absolute;">
+      <div style="left: 0;right: 0;margin-left: auto; margin-right: auto; width: 501.1px;display:flex;border:2px solid white;position:absolute;">
         <a href="/">
-          <div style="border-right: 2px solid #eee;padding:1.2em"><img src="../assets/facebook.png"></div>
+          <div style="border-right: 2px solid #eee;padding:1.2em"><img alt="facebook logo" src="../assets/facebook.png"></div>
         </a>
         <a href="/">
-          <div style="border-right: 2px solid #eee;padding:1.2em"><img src="../assets/linkedin.png"></div>
+          <div style="border-right: 2px solid #eee;padding:1.2em"><img alt="linkedin logo" src="../assets/linkedin.png"></div>
         </a>
         <a href="/">
-          <div style="border-right: 2px solid #eee;padding:1.2em"><img src="../assets/instagram.png"></div>
+          <div style="border-right: 2px solid #eee;padding:1.2em"><img alt="instagram logo" src="../assets/instagram.png"></div>
         </a>
         <a href="/">
-          <div style="border-right: 2px solid #eee;padding:1.2em"><img src="../assets/twitter.png"></div>
+          <div style="border-right: 2px solid #eee;padding:1.2em"><img alt="twitter logo" src="../assets/twitter.png"></div>
+        </a>
+        <a href="/">
+          <div style="border-right: 2px solid #eee;padding:1.2em"><img alt="github logo" src="../assets/github.png"></div>
         </a>
         <a href="/portfolio">
-          <div id="projectLink" style="border-right: 2px solid #eee;padding:1.2em;font-size:17px;color:black;">Mes projects</div>
+          <div id="projectLink" style="border-right: 2px solid #eee;padding:1.2em;font-size:17px;color:black;"><span style="font-weight:bolder;font-size:18px">Mes
+              projects</span></div>
         </a>
       </div>
     </div>

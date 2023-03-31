@@ -22,10 +22,7 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/portfolio">Portfolio</router-link>
           </li>
-          <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" to="/github">Github</router-link>
-          </li>
-
+         
         </ul>
       </div>
     </div>
