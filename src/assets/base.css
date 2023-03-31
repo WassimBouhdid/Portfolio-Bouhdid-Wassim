@@ -4,7 +4,12 @@
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
 
+  /* color palette Portfolio*/
   --vt-c-black: #181818;
+  --vt-c-green: #157F1F;
+  --vt-c-white2: #FDFFFF;
+
+
   --vt-c-black-soft: #222222;
   --vt-c-black-mute: #282828;
 
@@ -62,7 +67,7 @@
 body {
   min-height: 100vh;
   color: var(--color-text);
-  background: var(--color-background);
+  background: white;
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
@@ -71,4 +76,245 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#curriculumCardContainer {
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#exp {
+  color: black;
+  grid-column: 1 / 3;
+  grid-row: 1 / 5;
+}
+
+#data {
+  color: black;
+  grid-column: 3;
+  grid-row: 1 / 5;
+  background-image: url(../assets/backgroungImageBasicGreen.jpg);
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+
+#imgProfile {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imageWrapper {
+  width: 100%;
+}
+
+h1 {
+  margin: 40px;
+  font-size: 55px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin: 20px;
+  text-decoration: underline;
+  text-decoration-color: var(--vt-c-green);
+}
+
+h5{
+  text-decoration-color: var(--vt-c-green);
+}
+
+.langueNom {
+  display: block;
+  width: 120px !important;
+}
+
+#francais {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+  height: 15px;
+  background-color: #157F1F;
+  border-radius: 15px;
+}
+
+#ndls {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 60%;
+  height: 15px;
+  background-color: #157F1F;
+  border-radius: 15px;
+}
+
+#anglais {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 70%;
+  height: 15px;
+  background-color: #157F1F;
+  border-radius: 15px;
+}
+
+.listLangue {
+  display: flex;
+}
+
+span.lvl {
+  width: 250px;
+  margin-left: 25px;
+}
+
+.lvlMax {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 250px;
+  height: 15px;
+  background-color: darkgray;
+  border-radius: 15px;
+}
+
+#formation{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#dateFromation1{
+  grid-column: 1;
+  grid-row: 1 ;
+}
+
+#dateFromation2{
+  grid-column: 1;
+  grid-row: 2 ;
+}
+
+#dateFromation3{
+  grid-column: 1;
+  grid-row: 3 ;
+}
+
+#descriptionFormation1{
+  grid-column: 2/4;
+  grid-row: 1 ;
+}
+
+#descriptionFormation2{
+  grid-column: 2/4;
+  grid-row: 2 ;
+}
+
+#descriptionFormation3{
+  grid-column: 2/4;
+  grid-row: 3 ;
+}
+
+#experience{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#dateExp1{
+  grid-column: 1;
+  grid-row: 1 ;
+}
+
+#dateExp2{
+  grid-column: 1;
+  grid-row: 2 ;
+}
+
+#dateExp3{
+  grid-column: 1;
+  grid-row: 3 ;
+}
+
+#dateExp4{
+  grid-column: 1;
+  grid-row: 4 ;
+}
+
+#descriptionExp1{
+  grid-column: 2/4;
+  grid-row: 1 ;
+}
+
+#descriptionExp2{
+  grid-column: 2/4;
+  grid-row: 2 ;
+}
+
+#descriptionExp3{
+  grid-column: 2/4;
+  grid-row: 3 ;
+}
+
+#descriptionExp4{
+  grid-column: 2/4;
+  grid-row: 4 ;
+}
+
+.contactInfo{
+  margin: 10px;
+}
+
+/*   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)) url(../assets/backgroungImageBasicGreen.jpg); */
+
+#front{
+  background-image:  url(../assets/backgroungImageBasicGreen.jpg);
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+#titleCv{
+ animation-name: pop;
+  animation-duration: 2s;
+  color: black;
+  margin: 5px;
+  font-weight: bolder;
+  font-size:55px;
+  text-align: center;
+}
+
+@keyframes pop {
+  from {
+      opacity: 0;
+      position: relative;
+  }
+
+  to {
+      opacity: 1;
+      position: relative;
+  }
+}
+
+#app{
+padding: 0px !important;
+}
+
+a div:hover img{
+  transform: scale(1.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: transform 500ms ease-in-out;
+        color: white;
+}
+
+a div:hover span{
+  transition: color 300ms ease-in-out;
+        color: white;
 }

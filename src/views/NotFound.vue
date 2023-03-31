@@ -1,6 +1,9 @@
 <template lang="">
-    <div>
+    
+    <div class="container">
+        <div>
         ERREUR 404
+    </div>
     </div>
 </template>
 <script>
