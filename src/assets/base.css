@@ -84,6 +84,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  margin-top: 45px
 }
 
 #exp {
@@ -129,7 +130,7 @@ h3 {
   text-decoration-color: var(--vt-c-green);
 }
 
-h5{
+h5 {
   text-decoration-color: var(--vt-c-green);
 }
 
@@ -183,178 +184,279 @@ span.lvl {
   border-radius: 15px;
 }
 
-#formation{
+#formation {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
 
-#dateFromation1{
+#dateFromation1 {
   grid-column: 1;
-  grid-row: 1 ;
+  grid-row: 1;
 }
 
-#dateFromation2{
+#dateFromation2 {
   grid-column: 1;
-  grid-row: 2 ;
+  grid-row: 2;
 }
 
-#dateFromation3{
+#dateFromation3 {
   grid-column: 1;
-  grid-row: 3 ;
+  grid-row: 3;
 }
 
-#descriptionFormation1{
+#descriptionFormation1 {
   grid-column: 2/4;
-  grid-row: 1 ;
+  grid-row: 1;
 }
 
-#descriptionFormation2{
+#descriptionFormation2 {
   grid-column: 2/4;
-  grid-row: 2 ;
+  grid-row: 2;
 }
 
-#descriptionFormation3{
+#descriptionFormation3 {
   grid-column: 2/4;
-  grid-row: 3 ;
+  grid-row: 3;
 }
 
-#experience{
+#experience {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
 
-#dateExp1{
+#dateExp1 {
   grid-column: 1;
-  grid-row: 1 ;
+  grid-row: 1;
 }
 
-#dateExp2{
+#dateExp2 {
   grid-column: 1;
-  grid-row: 2 ;
+  grid-row: 2;
 }
 
-#dateExp3{
+#dateExp3 {
   grid-column: 1;
-  grid-row: 3 ;
+  grid-row: 3;
 }
 
-#dateExp4{
+#dateExp4 {
   grid-column: 1;
-  grid-row: 4 ;
+  grid-row: 4;
 }
 
-#descriptionExp1{
+#descriptionExp1 {
   grid-column: 2/4;
-  grid-row: 1 ;
+  grid-row: 1;
 }
 
-#descriptionExp2{
+#descriptionExp2 {
   grid-column: 2/4;
-  grid-row: 2 ;
+  grid-row: 2;
 }
 
-#descriptionExp3{
+#descriptionExp3 {
   grid-column: 2/4;
-  grid-row: 3 ;
+  grid-row: 3;
 }
 
-#descriptionExp4{
+#descriptionExp4 {
   grid-column: 2/4;
-  grid-row: 4 ;
+  grid-row: 4;
 }
 
-.contactInfo{
+.contactInfo {
   margin: 10px;
 }
 
 /*   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)) url(../assets/backgroungImageBasicGreen.jpg); */
 
-#front{
-  background-image:  url(../assets/backgroungImageBasicGreen.jpg);
-  height: 650px;
+#front {
+  background-image: url(../assets/backgroungImageBasicGreen.jpg);
+  height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
- 
+
 }
 
-#titleCv{
- animation-name: pop;
+#titleCv {
+  animation-name: pop;
   animation-duration: 2s;
   color: black;
   margin: 5px;
   font-weight: bolder;
-  font-size:55px;
+  font-size: 55px;
   text-align: center;
 }
 
 @keyframes pop {
   from {
-      opacity: 0;
-      position: relative;
+    opacity: 0;
+    position: relative;
   }
 
   to {
-      opacity: 1;
-      position: relative;
+    opacity: 1;
+    position: relative;
   }
 }
 
-#app{
-padding: 0px !important;
+#app {
+  padding: 0px !important;
 }
 
-a div:hover img{
+a div:hover img {
   transform: scale(1.3);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        transition: transform 500ms ease-in-out;
-        color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 500ms ease-in-out;
+  color: white;
 }
 
-a div:hover span{
+a div:hover span {
   transition: color 300ms ease-in-out;
-        color: white;
+  color: white;
 }
 
-div#contact ul li{
+div#contact ul li {
   list-style: none;
 }
 
-div#technologies ul li{
+div#technologies ul li {
   list-style: none;
 }
 
-div#skills ul li{
+div#skills ul li {
   list-style: none;
 }
 
-div#interrests ul li{
+div#interrests ul li {
   list-style: none;
 }
 
 
-.personnalProject{
-display: flex;
+.personnalProject {
+  display: flex;
+  margin: 55px;
 }
 
-button{
+div.personnalProject div {
+  width: 450px;
+  margin: 25px;
+}
+
+button {
   border: 0px solid;
-  background-color:
-  
+  background-color: green;
+  border-radius: 5px;
+  padding: 15px 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: white;
+  font-weight: 900;
+  font-size: 17px;
 }
 
-button:hover{
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  
+button:hover {
+  border-radius: 5px;
+  color: black;
 }
 
-label{
+label {
   display: block;
 }
 
-input{
+input {
   display: block;
+}
+
+@media screen and (max-width:1024px) {
+  .personnalProject {
+    display: block;
+  }
+}
+
+.mainTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90rem;
+  width: 92%;
+}
+
+.socialLink {
+  border-right: 2px solid #eee;
+  padding: 1.2em;
+}
+
+.socialIcon {
+  width: 32px;
+}
+
+#projectLink {
+  border-right: 2px solid #eee;
+  padding: 1.2em;
+  font-size: 17px;
+  color: black;
+}
+
+
+#personnalDescription {
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 700px;
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#projectText {
+  font-weight: bolder;
+  font-size: 18px
+}
+
+#description {
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 700px;
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#socialWrapper {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 501.1px;
+  display: flex;
+  border: 2px solid white;
+  position: absolute;
+}
+
+div#imageWrapper img {
+  margin-top: 15px;
+  margin-bottom: 15px
+}
+
+.techLogoWrapper {
+  justify-content: center;
+  display: flex;
+  margin: 15px !important;
+}
+
+.techLogo{
+  width:55px;margin:20px;
+}
+.projectImageWrapper{
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
