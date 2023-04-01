@@ -1,134 +1,122 @@
 <template lang="">
 
   <div id="front">
-    <div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);max-width: 90rem;width: 92%;">
+    <div class="mainTitle">
       <h1 id="titleCv">Portfolio</h1>
-      <h2>Mes projects</h2>
+      <h2>Mes projets</h2>
     </div>
   </div>
 
   <div class="container">
-    <div style="margin:55px;" class="personnalProject">
-      <div style="width:450px;margin:25px;">
-        <img src="#">
+    <div class="personnalProject">
+      <div class="projectImageWrapper">
+        <img class="img-fluid" src="../assets/ordinateur.png">
       </div>
-      <div style="width:450px;margin:25px;">
+      <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, cupiditate animi, nostrum ratione neque
           voluptatum distinctio voluptatem est odio accusantium, ex repellat explicabo expedita ipsum quidem rem aliquam
           doloribus fugit.</p>
         <div>
           <h4>les technologies utilisées</h4>
-          <div style="display:flex;margin:25px;">
-            <img src="#"><img src="#"><img src="#"><img src="#"><img src="#"><img src="#">
+          <div class="techLogoWrapper">
+            <img class="img-fluid techLogo" src="../assets/vue-js-logo.png"><img class="img-fluid techLogo" src="../assets/angular-logo.png"><img class="img-fluid techLogo" src="../assets/nodejs.png"><img class="img-fluid techLogo" src="../assets/mysql.png"><img class="img-fluid techLogo" src="../assets/kotlin.png"><img class="img-fluid techLogo" src="../assets/symfony.png">
           </div>
         </div>
-        <Button>Voir le project</Button>
+        <Button>Voir le projet</Button>
       </div>
     </div>
 
-    <div style="margin:55px;" class="personnalProject">
-      <div style="width:450px;margin:25px;">
-        <img src="#">
+    <div class="personnalProject">
+      <div class="projectImageWrapper">
+        <img class="img-fluid" src="../assets/ordinateur.png">
       </div>
-      <div style="width:450px;margin:25px;">
+      <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, cupiditate animi, nostrum ratione neque
           voluptatum distinctio voluptatem est odio accusantium, ex repellat explicabo expedita ipsum quidem rem aliquam
           doloribus fugit.</p>
         <div>
           <h4>les technologies utilisées</h4>
-          <div style="display:flex;margin:25px;">
-            <img src="#"><img src="#"><img src="#"><img src="#"><img src="#"><img src="#">
+          <div class="techLogoWrapper">
+            <img class="img-fluid techLogo" src="../assets/vue-js-logo.png"><img class="img-fluid techLogo" src="../assets/angular-logo.png"><img class="img-fluid techLogo" src="../assets/nodejs.png"><img class="img-fluid techLogo" src="../assets/mysql.png"><img class="img-fluid techLogo" src="../assets/kotlin.png"><img class="img-fluid techLogo" src="../assets/symfony.png">
           </div>
         </div>
-        <Button>Voir le project</Button>
+        <Button>Voir le projet</Button>
       </div>
     </div>
 
-    <div style="margin:55px;" class="personnalProject">
-      <div style="width:450px;margin:25px;">
-        <img src="#">
+    <div class="personnalProject">
+      <div class="projectImageWrapper">
+        <img class="img-fluid" src="../assets/ordinateur.png">
       </div>
-      <div style="width:450px;margin:25px;">
+      <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, cupiditate animi, nostrum ratione neque
           voluptatum distinctio voluptatem est odio accusantium, ex repellat explicabo expedita ipsum quidem rem aliquam
           doloribus fugit.</p>
         <div>
           <h4>les technologies utilisées</h4>
-          <div style="display:flex;margin:25px;">
-            <img src="#"><img src="#"><img src="#"><img src="#"><img src="#"><img src="#">
+          <div class="techLogoWrapper">
+            <img class="img-fluid techLogo" src="../assets/vue-js-logo.png"><img class="img-fluid techLogo" src="../assets/angular-logo.png"><img class="img-fluid techLogo" src="../assets/nodejs.png"><img class="img-fluid techLogo" src="../assets/mysql.png"><img class="img-fluid techLogo" src="../assets/kotlin.png"><img class="img-fluid techLogo" src="../assets/symfony.png">
           </div>
         </div>
-        <Button>Voir le project</Button>
+        <Button>Voir le projet</Button>
       </div>
     </div>
 
-    <div style="margin:55px;" class="personnalProject">
-      <div style="width:450px;margin:25px;">
-        <img src="#">
+    <div class="personnalProject">
+      <div class="projectImageWrapper">
+        <img class="img-fluid" src="../assets/ordinateur.png">
       </div>
-      <div style="width:450px;margin:25px;">
+      <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, cupiditate animi, nostrum ratione neque
           voluptatum distinctio voluptatem est odio accusantium, ex repellat explicabo expedita ipsum quidem rem aliquam
           doloribus fugit.</p>
         <div>
           <h4>les technologies utilisées</h4>
-          <div style="display:flex;margin:25px;">
-            <img src="#"><img src="#"><img src="#"><img src="#"><img src="#"><img src="#">
+          <div class="techLogoWrapper">
+            <img class="img-fluid techLogo" src="../assets/vue-js-logo.png"><img class="img-fluid techLogo" src="../assets/angular-logo.png"><img class="img-fluid techLogo" src="../assets/nodejs.png"><img class="img-fluid techLogo" src="../assets/mysql.png"><img class="img-fluid techLogo" src="../assets/kotlin.png"><img class="img-fluid techLogo" src="../assets/symfony.png">
           </div>
         </div>
-        <Button>Voir le project</Button>
+        <Button>Voir le projet</Button>
       </div>
     </div>
 
-    <div style="margin:55px;" class="personnalProject">
-      <div style="width:450px;margin:25px;">
-        <img src="#">
+    <div class="personnalProject">
+      <div class="projectImageWrapper">
+        <img class="img-fluid" src="../assets/ordinateur.png">
       </div>
-      <div style="width:450px;margin:25px;">
+      <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, cupiditate animi, nostrum ratione neque
           voluptatum distinctio voluptatem est odio accusantium, ex repellat explicabo expedita ipsum quidem rem aliquam
           doloribus fugit.</p>
         <div>
           <h4>les technologies utilisées</h4>
-          <div style="display:flex;margin:25px;">
-            <img src="#"><img src="#"><img src="#"><img src="#"><img src="#"><img src="#">
+          <div class="techLogoWrapper">
+            <img class="img-fluid techLogo" src="../assets/vue-js-logo.png"><img class="img-fluid techLogo" src="../assets/angular-logo.png"><img class="img-fluid techLogo" src="../assets/nodejs.png"><img class="img-fluid techLogo" src="../assets/mysql.png"><img class="img-fluid techLogo" src="../assets/kotlin.png"><img class="img-fluid techLogo" src="../assets/symfony.png">
           </div>
         </div>
-        <Button>Voir le project</Button>
+        <Button>Voir le projet</Button>
       </div>
     </div>
 
-    <div style="margin:55px;" class="personnalProject">
-      <div style="width:450px;margin:25px;">
-        <img src="#">
+    <div class="personnalProject">
+      <div class="projectImageWrapper">
+        <img class="img-fluid" src="../assets/ordinateur.png">
       </div>
-      <div style="width:450px;margin:25px;">
+      <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, cupiditate animi, nostrum ratione neque
           voluptatum distinctio voluptatem est odio accusantium, ex repellat explicabo expedita ipsum quidem rem aliquam
           doloribus fugit.</p>
         <div>
           <h4>les technologies utilisées</h4>
-          <div style="display:flex;margin:25px;">
-            <img src="#"><img src="#"><img src="#"><img src="#"><img src="#"><img src="#">
+          <div class="techLogoWrapper">
+            <img class="img-fluid techLogo" src="../assets/vue-js-logo.png"><img class="img-fluid techLogo" src="../assets/angular-logo.png"><img class="img-fluid techLogo" src="../assets/nodejs.png"><img class="img-fluid techLogo" src="../assets/mysql.png"><img class="img-fluid techLogo" src="../assets/kotlin.png"><img class="img-fluid techLogo" src="../assets/symfony.png">
           </div>
         </div>
-        <Button>Voir le project</Button>
+            <Button>Voir le projet</Button>
       </div>
     </div>
   </div>
-  <div>
-    <h2>Contact</h2>
-    <form>
-      <label>nom</label>
-      <input>
-      <label>prénom</label>
-      <input>
-      <label>adresse mail</label>
-      <input>
-      <label>Message</label>
-      <input>
-    </form>
-  </div>
+
 </template>
 <script>
   export default {

@@ -1,37 +1,37 @@
 <template lang="">
 
   <div id="front">
-    <div style="position: absolute;top: 40%;left: 50%;transform: translate(-50%, -50%);max-width: 90rem;width: 92%;">
+    <div class="mainTitle">
       <h1 id="titleCv">Bouhdid Wassim</h1>
       <div>
         <h2>Developpeur</h2>
-        <p style="text-align:center;background-color:white;color:black; width:700px; border-radius:5px;margin-right: auto;margin-left: auto;"> Bonjour ! Je m'appelle Bouhdid Wassim. Je suis un développeur junior diplomé en technologies de l'informatique à Haute école de l'EPHEC à Louvain La Neuve. Je suis motivé pour prendre mes premiers pas dans le monde professionel et d'apprendre de nouvelles technologies. Sur mon site, vous pourrez avoir accès à mon cv qui se trouve ci-dessous et à mon <a href="/portfolio">portfolio</a>.</p>
+        <p id="description"> Bonjour ! Je m'appelle Bouhdid Wassim. Je suis un développeur junior diplomé en technologies de l'informatique à Haute école de l'EPHEC à Louvain La Neuve. Je suis motivé pour prendre mes premiers pas dans le monde professionel et d'apprendre de nouvelles technologies. Sur mon site, vous pourrez avoir accès à mon cv qui se trouve ci-dessous et à mon <a href="/portfolio">portfolio</a>.</p>
       </div>
-      <div style="left: 0;right: 0;margin-left: auto; margin-right: auto; width: 501.1px;display:flex;border:2px solid white;position:absolute;">
+      <div id="socialWrapper">
         <a href="/">
-          <div style="border-right: 2px solid #eee;padding:1.2em"><img alt="facebook logo" width="32px" src="../assets/facebook.png"></div>
+          <div class="socialLink" ><img class="socialIcon" alt="facebook logo" src="../assets/facebook.png"></div>
         </a>
         <a href="/">
-          <div style="border-right: 2px solid #eee;padding:1.2em"><img alt="linkedin logo" width="32px" src="../assets/linkedin.png"></div>
+          <div class="socialLink" ><img class="socialIcon" alt="linkedin logo" src="../assets/linkedin.png"></div>
         </a>
         <a href="/">
-          <div style="border-right: 2px solid #eee;padding:1.2em"><img alt="instagram logo" width="32px" src="../assets/instagram.png"></div>
+          <div class="socialLink" ><img class="socialIcon" alt="instagram logo" src="../assets/instagram.png"></div>
         </a>
         <a href="/">
-          <div style="border-right: 2px solid #eee;padding:1.2em"><img alt="twitter logo" width="32px" src="../assets/twitter.png"></div>
+          <div class="socialLink" ><img class="socialIcon" alt="twitter logo" src="../assets/twitter.png"></div>
         </a>
         <a href="/">
-          <div style="border-right: 2px solid #eee;padding:1.2em"><img alt="github logo" width="32px" src="../assets/github.png"></div>
+          <div class="socialLink" ><img class="socialIcon" alt="github logo" src="../assets/github.png"></div>
         </a>
         <a href="/portfolio">
-          <div id="projectLink" style="border-right: 2px solid #eee;padding:1.2em;font-size:17px;color:black;"><span style="font-weight:bolder;font-size:18px">Mes
+          <div id="projectLink" ><span id="projectText">Mes
               projects</span></div>
         </a>
       </div>
     </div>
   </div>
 
-  <div style="margin-top:35px" class="container" id="curriculumCardContainer">
+  <div class="container" id="curriculumCardContainer">
     <div id="exp">
       <h1>Bouhdid Wassim</h1>
       <div>
@@ -118,7 +118,7 @@
     </div>
     <div id="data">
       <div id="imageWrapper">
-        <img style="margin-top:15px;margin-bottom:15px" class="img-fluid" id="imgProfile"
+        <img class="img-fluid" id="imgProfile"
           src="../assets/imgProfile.jpg">
       </div>
       <div id="contact">
