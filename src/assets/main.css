@@ -58,15 +58,15 @@ a,
 
 @media screen and (min-width: 425px) and (max-width:768px) {
   #description {
-    width: 304.3px;
+    width: 384.3px;
   }
 
   #socialWrapper {
-    width: 406.4px;
+    width: 484.5px;
   }
 
   .socialIcon {
-    width: 16px;
+    width: 32px;
   }
 
   #curriculumCardContainer {
@@ -101,9 +101,6 @@ a,
     width: 70%;
 }
 
-.socialLink{
-  padding: 10px;
-}
 
 #formation {
   margin: 30px;
@@ -136,6 +133,7 @@ a,
 
   .socialLink {
     height: 100%;
+    padding:0.6em;
   }
 
   #exp h1 {
@@ -151,7 +149,7 @@ a,
   }
 
   #socialWrapper {
-    width: 306.4px;
+    width: 276px;
   }
 
   .socialIcon {
@@ -184,6 +182,11 @@ a,
 
   .projectImageWrapper img {
     width: 70%;
+}
+
+#projectLink {
+  padding: 0.8em;
+  font-size: 14px;
 }
 
 }
