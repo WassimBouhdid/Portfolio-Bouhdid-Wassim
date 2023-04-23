@@ -97,7 +97,7 @@ body {
   color: black;
   grid-column: 3;
   grid-row: 1 / 5;
-  background-image: url(../assets/backgroungImageBasicGreen.jpg);
+  background-image: url(../backgroungImageBasicGreen.jpg);
   background-size: cover;
   color: white;
   padding: 20px;
@@ -275,7 +275,7 @@ span.lvl {
 /*   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)) url(../assets/backgroungImageBasicGreen.jpg); */
 
 #front {
-  background-image: url(../assets/backgroungImageBasicGreen.jpg);
+  background-image: url(../backgroungImageBasicGreen.jpg);
   height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
