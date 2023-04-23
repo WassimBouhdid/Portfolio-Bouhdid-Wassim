@@ -1,0 +1,212 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .personnalProject {
+    display: block;
+  }
+
+
+}
+
+
+
+@media screen and (max-width:1024px) {
+  .personnalProject {
+    display: block;
+  }
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+  #socialWrapper {
+    width: 504.3px;
+  }
+
+  .projectImageWrapper img {
+    width: 70%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+  #socialWrapper {
+    width: 504.3px;
+  }
+
+  .projectImageWrapper img {
+    width: 70%;
+}
+
+#formation {
+  margin: 30px;
+}
+
+#experience{
+  margin: 30px;
+}
+}
+
+@media screen and (min-width: 425px) and (max-width:768px) {
+  #description {
+
+    width: 384.3px;
+  }
+
+  #socialWrapper {
+    width: 484.5px;
+  }
+
+  .socialIcon {
+    width: 32px;
+  }
+
+  #curriculumCardContainer {
+    display: block;
+  }
+
+  #front {
+    height: 650px;
+  }
+
+  .langueNom {
+    width: 170px !important;
+  }
+
+  #exp h1 {
+    text-align: center;
+  }
+
+  #projectText {
+    font-size: 15px;
+  }
+
+  .socialLink {
+    height: 100%;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .projectImageWrapper img {
+    width: 70%;
+}
+
+#formation {
+  margin: 30px;
+}
+
+#experience{
+  margin: 30px;
+}
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width:425px) {
+
+  #formation {
+    margin: 10px;
+  }
+  
+  #experience{
+    margin: 10px;
+  }
+
+  .langueNom {
+    width: 280px !important;
+  }
+
+  #projectText {
+    font-size: 15px;
+  }
+
+  .socialLink {
+    height: 100%;
+    padding:0.6em;
+
+  }
+
+  #exp h1 {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  #description {
+    width: 300px;
+  }
+
+  #socialWrapper {
+    width: 276px;
+
+  }
+
+  .socialIcon {
+    width: 12px;
+  }
+
+  #curriculumCardContainer {
+    display: block;
+  }
+
+  #front {
+    height: 650px;
+  }
+
+  .projectImageWrapper img {
+    width: 200px;
+  }
+
+
+  .personnalProject {
+    margin: 15px;
+
+    margin-top: 45px;
+  }
+
+  .techLogo {
+    width: 35px;
+    margin: 10px;
+  }
+
+  .projectImageWrapper img {
+    width: 70%;
+}
+
+#projectLink {
+  padding: 0.8em;
+  font-size: 14px;
+}
+
+}
+
+@media screen and (max-width:320px) {
+
+  .techLogo {
+    width: 30px;
+    margin: 10px;
+  }
+
+}
