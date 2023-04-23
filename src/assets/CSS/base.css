@@ -427,7 +427,7 @@ input {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  width: 501.1px;
+  width: max-content;
   display: flex;
   border: 2px solid white;
   position: absolute;
