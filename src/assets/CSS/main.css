@@ -13,6 +13,11 @@ a,
   transition: 0.4s;
 }
 
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
 
 @media screen and (max-width:1024px) {
   .personnalProject {
@@ -33,9 +38,10 @@ a,
 }
 
 @media screen and (min-width: 1024px) and (max-width:1440px) {
+  /**
   #socialWrapper {
     width: 504.3px;
-  }
+  }*/
 
   .projectImageWrapper img {
     width: 70%;
@@ -43,10 +49,11 @@ a,
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
+  /**
   #socialWrapper {
     width: 504.3px;
   }
-
+*/
   .projectImageWrapper img {
     width: 70%;
 }
@@ -66,9 +73,11 @@ a,
     width: 384.3px;
   }
 
+  /**
   #socialWrapper {
     width: 484.5px;
   }
+  */
 
   .socialIcon {
     width: 32px;
@@ -153,11 +162,12 @@ a,
     width: 300px;
   }
 
+  /**
   #socialWrapper {
     width: 276px;
 
   }
-
+*/
   .socialIcon {
     width: 12px;
   }
